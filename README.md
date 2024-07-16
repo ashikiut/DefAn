@@ -4,13 +4,13 @@
   A.B.M. Ashikur Rahman<sup>1</sup>, Saeed Anwar<sup>1,2</sup>, Muhammad Usman<sup>1,2</sup>, Ajmal Mian<sup>3</sup>, 
 </div>
 <div align="center">
-<sup>1</sup> King Fahd University of Petroleum and Minerals 
+<sup>1</sup> King Fahd University of Petroleum and Minerals, Dhahran, KSA
 </div>
 <div align="center">
 <sup>2</sup>JRCAI, SDAIA-KFUPM 
 </div>
 <div align="center">
-<sup>3</sup>The University of Western Australia
+<sup>3</sup>The University of Western Australia, Crawley, Western Australia
 </div>
 <div align="center">
     <a href="https://arxiv.org/abs/2406.09155">Arxiv Paper</a>,  <a href="https://huggingface.co/datasets/iamasQ/DefAn">Hugging Face Repository</a>
