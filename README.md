@@ -101,7 +101,11 @@ Domain wise performance for each LLM is summarized here.
 | gemini  |  0.82  |  0.91  |  0.07  |  0.07  |  0.79  |  0.74  |      0.89     |  0.99  |         0.79        |  0.82  |    0.15    |  0.16  |     0.78    |  0.76  |
 
 #### Overall Performance
-
+<!-- ![Hidden](https://github.com/ashikiut/DefAn/blob/main/Images/overall_hidden.png)![Public](https://github.com/ashikiut/DefAn/blob/main/Images/overall_public.png) -->
+<p float="left">
+  <img src="/Images/overall_hidden.png" width="500" />
+  <img src="/Images/overall_public.png" width="500" /> 
+</p>
 ### Citation Information
 
 ```bibtex
