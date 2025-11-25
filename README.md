@@ -1,7 +1,7 @@
 # DefAn: Definitive-Answer-Dataset-for-LLMs-Hallucination-Evaluation
 
 <div align="center">
-  A.B.M. Ashikur Rahman<sup>1</sup>, Saeed Anwar<sup>1,2,3</sup>, Muhammad Usman<sup>1,2</sup>, Irfan Ahmad<sup>1,2</sup> Ajmal Mian<sup>3</sup>, 
+  A.B.M. Ashikur Rahman<sup>1</sup>, Saeed Anwar<sup>1,2,3</sup>, Muhammad Usman<sup>4</sup>, Irfan Ahmad<sup>1,2</sup> Ajmal Mian<sup>3</sup>, 
 </div>
 <div align="center">
 <sup>1</sup> King Fahd University of Petroleum and Minerals, Dhahran, KSA
