@@ -1,7 +1,7 @@
 # DefAn: Definitive-Answer-Dataset-for-LLMs-Hallucination-Evaluation
 
 <div align="center">
-  A.B.M. Ashikur Rahman<sup>1</sup>, Saeed Anwar<sup>1,2</sup>, Muhammad Usman<sup>1,2</sup>, Ajmal Mian<sup>3</sup>, 
+  A.B.M. Ashikur Rahman<sup>1</sup>, Saeed Anwar<sup>1,2,3</sup>, Muhammad Usman<sup>1,2</sup>, Irfan Ahmad<sup>1,2</sup> Ajmal Mian<sup>3</sup>, 
 </div>
 <div align="center">
 <sup>1</sup> King Fahd University of Petroleum and Minerals, Dhahran, KSA
@@ -12,12 +12,17 @@
 <div align="center">
 <sup>3</sup>The University of Western Australia, Crawley, Western Australia
 </div>
+</div>
 <div align="center">
-    <a href="https://arxiv.org/abs/2406.09155">Arxiv Paper</a>,  <a href="https://huggingface.co/datasets/iamasQ/DefAn">Hugging Face Repository</a>
+<sup>4</sup>Faculty of Science, Ontario Tech University, 2000 Simcoe Street North Oshawa, Oshawa, ON L1G 0C5, Canada
+</div>
+
+<div align="center">
+    <a href="https://www.mdpi.com/2078-2489/16/11/937">Paper Link</a>,  <a href="https://huggingface.co/datasets/iamasQ/DefAn">Hugging Face Repository</a>
 </div>
 
 ### Abstract
-Large Language Models (LLMs) have demonstrated remarkable capabilities, revolutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims that contradict established facts, deviating from prompts, and producing inconsistent responses when the same prompt is presented multiple times. Addressing these issues is challenging due to the lack of comprehensive and easily assessable benchmark datasets. Most existing datasets are small and rely on multiple-choice questions, which are inadequate for evaluating the generative prowess of LLMs. To measure hallucination in LLMs, this paper introduces a comprehensive benchmark dataset comprising over 75,000 prompts across eight domains. These prompts are designed to elicit definitive, concise, and informative answers. The dataset is divided into two segments: one publicly available for testing and assessing LLM performance and a hidden segment for benchmarking various LLMs. In our experiments, we tested six LLMs—GPT-3.5, LLama 2, LLama 3, Gemini, Mixtral, and Zephyr—revealing that overall factual hallucination ranges from 59\% to 82\% on the public dataset and 57\% to 76\% in the hidden benchmark. Prompt misalignment hallucination ranges from 6\% to 95\% in the public dataset and 17\% to 94\% in the hidden counterpart. Average consistency ranges from 21\% to 61\% and 22\% to 63\%, respectively. Domain-wise analysis shows that LLM performance significantly deteriorates when asked for specific numeric information while performing moderately with person, location, and date queries. Our dataset demonstrates its efficacy and serves as a comprehensive benchmark for LLM performance evaluation.
+Large Language Models (LLMs) represent a major step in AI development and are increasingly used in daily applications. However, they are prone to hallucinations, generating claims that contradict established facts, deviating from prompts, and producing inconsistent responses when the same prompt is presented multiple times. Addressing these issues is challenging due to the lack of comprehensive and easily assessable benchmark datasets. Most existing datasets are limited in scale and scope and rely on multiple-choice questions, which are insufficient for evaluating the generative capabilities of LLMs. To assess hallucination in LLMs, this paper introduces a comprehensive benchmark dataset consisting of over 20,000 unique prompts (more than 75,000 prompts in total) across eight domains. These prompts are designed to elicit definitive, concise, and informative answers. The dataset is divided into two segments: one publicly available for testing and assessing LLM performance, and a hidden segment for benchmarking various LLMs. In our experiments, we tested nine State-of-The-Art (SoTA) models, GPT-4o, GPT-3.5, LLama 2 7B, LLama 3 8B, Gemini 1.0 Pro, Mixtral 8x7B, Zephyr 7B, Deepseek-r1-7b, and Qwen2.5-14B, revealing that overall factual hallucination ranges from 48% to 82% on the public dataset and 31% to 76% on the hidden benchmark. Prompt Misalignment Hallucination ranges up to 95% in the public dataset and up to 94% in the hidden counterpart. Average consistency ranges from 21% to 61% and 44% to 63%, respectively. Domain-wise analysis reveals that LLM performance significantly deteriorates when asked for specific numeric information, whereas it performs moderately with queries involving persons, locations, and dates. Our dataset demonstrates its efficacy and serves as a comprehensive benchmark for evaluating LLM performance.
 
 ### Dataset Description
 
@@ -109,11 +114,14 @@ Domain wise performance for each LLM is summarized here.
 ### Citation Information
 
 ```bibtex
-@article{rahman2024defan,
-  title={DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation},
-  author={Rahman, ABM and Anwar, Saeed and Usman, Muhammad and Mian, Ajmal},
-  journal={arXiv preprint arXiv:2406.09155},
-  year={2024}
+@article{rahman2025defan,
+  title={DefAn: Definitive Answer Dataset for LLM Hallucination Evaluation},
+  author={Rahman, ABM Ashikur and Anwar, Saeed and Usman, Muhammad and Ahmad, Irfan and Mian, Ajmal},
+  journal={Information},
+  volume={16},
+  number={11},
+  pages={937},
+  year={2025},
+  publisher={MDPI}
 }
-
 ```
