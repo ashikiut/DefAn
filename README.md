@@ -112,8 +112,8 @@ Domain wise performance for each LLM is summarized here.
 #### Overall Performance
 <!-- ![Hidden](https://github.com/ashikiut/DefAn/blob/main/Images/overall_hidden.png)![Public](https://github.com/ashikiut/DefAn/blob/main/Images/overall_public.png) -->
 <p float="left">
-  <img src="/Images/overall_hidden.png" width="500" />
-  <img src="/Images/overall_public.png" width="500" /> 
+  <img src="/Images/overall_public_with_whiskers.png" width="495" />
+  <img src="/Images/overall_hidden_with_whiskers.png" width="495" /> 
 </p>
 ### Citation Information
 
